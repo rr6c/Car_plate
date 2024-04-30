@@ -20,5 +20,5 @@ files {
     'html/*.html',
     'html/*.js',
     'html/*.css',
-    'html/img/*.png'
+    'lua/*.png'
 }

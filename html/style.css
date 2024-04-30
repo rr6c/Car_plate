@@ -26,10 +26,38 @@
 }
 
 .container .text-wrapper {
-  top: 6px;
   left: 113px;
   font-size: 20px;
   position: absolute;
+  top: 6px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  direction: rtl;
+}
+
+.container .overlap {
+  left: 45px;
+  border-radius: 36px 0px 35px 13px;
+  position: absolute;
+  width: 112px;
+  height: 33px;
+  top: 173px;
+  border: 1px solid;
+  border-color: #ffffff;
+  background: linear-gradient(180deg, rgb(217, 217, 217) 0%, rgb(115, 115, 115) 100%);
+  cursor: pointer;
+}
+
+.container .text-wrapper-2 {
+  left: 43px;
+  font-size: 15px;
+  position: absolute;
+  top: 6px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -41,31 +69,16 @@
 }
 
 .container .overlap-group {
+  left: 205px;
+  border-radius: 0px 36px 13px 35px;
   position: absolute;
-  width: 146px;
-  height: 40px;
-  top: 170px;
-  left: 108px;
-  border-radius: 36px 0px 35px 13px;
+  width: 112px;
+  height: 33px;
+  top: 173px;
   border: 1px solid;
   border-color: #ffffff;
   background: linear-gradient(180deg, rgb(217, 217, 217) 0%, rgb(115, 115, 115) 100%);
   cursor: pointer;
-}
-
-.container .text-wrapper-2 {
-  top: 9px;
-  left: 60px;
-  font-size: 15px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  text-align: left;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-  direction: rtl;
 }
 
 .container .textarea {
@@ -78,4 +91,5 @@
   border: 1px solid;
   border-color: #ffffff;
   background: linear-gradient(180deg, rgb(217, 217, 217) 0%, rgb(115, 115, 115) 100%);
+  cursor: text;
 }

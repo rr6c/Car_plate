@@ -35,7 +35,10 @@ $(function () {
         return;
     });
     
-    
+    $("#Hide").click(function () {
+        $.post('https://H_pl/Hide', JSON.stringify({}));
+        return;
+    });
     
     
     $("#close").click(function () {
